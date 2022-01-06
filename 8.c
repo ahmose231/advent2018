@@ -1,6 +1,6 @@
 #include<stdio.h>
 
-#define COUNT 15841
+#define COUNT 16000
 
 int m[COUNT];
 int totalsum=0;
