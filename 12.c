@@ -50,11 +50,11 @@ void main()
 	{
 		for(int mindex=2; mindex < len*3-3; mindex++)
 			for(int rulesindex=0; rulesindex < rulescount; rulesindex++)
-				if(	m[mindex-2]	==rules[rulesindex][0] &&
-					m[mindex-1]	==rules[rulesindex][1] &&
-					m[mindex]	==rules[rulesindex][2] &&
-					m[mindex+1]	==rules[rulesindex][3] &&
-					m[mindex+2]	==rules[rulesindex][4])
+				if(	m[mindex-2]	==	rules[rulesindex][0] &&
+					m[mindex-1]	==	rules[rulesindex][1] &&
+					m[mindex]	==	rules[rulesindex][2] &&
+					m[mindex+1]	==	rules[rulesindex][3] &&
+					m[mindex+2]	==	rules[rulesindex][4])
 					{
 						mcopy[mindex]=rules[rulesindex][9];
 						break;
